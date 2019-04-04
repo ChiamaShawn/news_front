@@ -23,9 +23,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/common/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "src/assets/plugin-frameworks/bootstrap.js",
+              "src/assets/plugin-frameworks/jquery-3.2.1.min.js",
+              "src/assets/plugin-frameworks/tether.min.js",
+              "src/assets/common/scripts.js"
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {
