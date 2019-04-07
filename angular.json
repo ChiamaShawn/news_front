@@ -24,13 +24,16 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/assets/common/styles.css"
+              "src/assets/common/styles.css",
+              "src/assets/plugin-frameworks/bootstrap.css"
+
             ],
             "scripts": [
-              "src/assets/plugin-frameworks/bootstrap.js",
+
               "src/assets/plugin-frameworks/jquery-3.2.1.min.js",
+              "src/assets/common/scripts.js",
               "src/assets/plugin-frameworks/tether.min.js",
-              "src/assets/common/scripts.js"
+              "src/assets/plugin-frameworks/bootstrap.js"
             ],
             "es5BrowserSupport": true
           },
